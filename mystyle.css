@@ -1,0 +1,75 @@
+h2{
+    font-size: xx-large;
+    margin-left: 700px;
+}
+ul{
+    display: flex;
+    margin-top: 50px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+ul li{
+    border: 0px solid black;
+    display: inline-block;
+    margin: 50px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#btn{
+    color: white;
+    background-color: green;
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 200px;
+
+}
+p{
+    margin-left: 140px;
+    font-size: larger;
+    font-weight: 1000;
+}
+h3{
+    margin-left: 190px;
+    width: 70%;
+}
+#formdiv{
+   width: 500px;
+   height: 300px;
+   border: 3px solid black;   
+   border-radius: 20px;
+   margin-left: 550px;
+}
+.formlabels{
+    margin-left: 200px;
+    font-size: larger;
+}
+.inputfld{
+    margin-left: 135px;
+    width: 50%;
+    height:40px;
+    border: 1px solid green
+    
+
+}
+#addanimal{
+    width: 50%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    background-color: rgb(243, 11, 11);
+    color: antiquewhite;
+    font-size: larger;
+    border-radius: 20px;
+    border-color: red;
+}
+#reset{
+   color: white;
+    background-color: red;
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 200px;  
+}
+

@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/animals.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script defer src="/animals.js"></script>
 </head>
 
 <body>
-    <h2>My Animals</h2>
+    <div id = "formdiv">
+        <h3> My Form </h3>
+        <form>
+            <label for = "name" class = "formlabels">Animalid</label><br>
+            <input type = "text" id ="animid" class = "inputfld"><br>
+            <label for = "name" class = "formlabels" >Animalname</label><br>
+            <input type = "text" id ="Animalname" class = "inputfld"><br>
+            <input type = "submit" id="addanimal" value ="AddAnimal">
+        </form>
+        
+        <div > 
+            <h2 id="addedid"> 0</h2>
+            <p id ="addedname"> Dog</p>
+        </div>
+    </div>
+   
+    <div>
+        <ul id = 'myanimallist'>
+
+        </ul>
+    </div>
+    <h2>ANIMAL LIST</h2>
 
     <ul id = 'unorderedlist'>
         
     </ul>
-    
+    <div></div>
 </body>
 </html>
