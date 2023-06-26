@@ -72,4 +72,9 @@ h3{
     margin-bottom: 30px;
     width: 200px;  
 }
-
+.displaydetails{
+    margin-top: 50px;
+}
+.displaydetails #addedname{
+    margin-left: 700px;
+}
